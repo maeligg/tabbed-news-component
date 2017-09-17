@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Tabbed news component demo</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
 <div class="container">
     <div class="tabbed-news">
         <nav class="header">
-            <ul>
-                <li class="js-tab" data-topic="uk-news">UK News</li>
-                <li class="js-tab" data-topic="football">Football</li>
-                <li class="js-tab" data-topic="travel">Travel</li>
+            <ul class="header-tabs">
+                <li><button class="tab js-tab uk-news" data-topic="uk-news">UK News</button></li>
+                <li><button class="tab js-tab football" data-topic="football">Football</button></li>
+                <li><button class="tab js-tab travel" data-topic="travel">Travel</button></li>
             </ul>
         </nav>
         <!-- The content of these lists could be pre-filled from server-side rendering -->

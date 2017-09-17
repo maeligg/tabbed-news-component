@@ -1,0 +1,40 @@
+.header-tabs {
+    display: flex;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 10px;
+    background-color: #ededed;
+    border-top: 2px solid #0061A6;
+}
+
+.tab {
+    margin: 0 10px;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+}
+
+.tab.uk-news {
+    background-color: #D61D00;
+}
+
+.tab.football {
+    background-color: #008000;
+}
+
+.tab.travel {
+    background-color: #066EC9;
+}
+
+.news-list {
+    display: none;
+    margin-top: 0;
+}
+
+.news-list.active {
+    display: block;
+}
+
+.news-list > li {
+    margin: 10px 0;
+}
